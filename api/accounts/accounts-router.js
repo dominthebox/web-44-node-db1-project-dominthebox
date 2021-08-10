@@ -20,7 +20,7 @@ md.checkAccountPayload,
 md.checkAccountNameUnique, 
 (req, res, next) => {
   try {
-    res.json('update account')
+    res.json('post account')
   } catch (err) {
     next(err)
   }
@@ -33,7 +33,7 @@ md.checkAccountNameUnique,
 (req, res, next) => {
   // DO YOUR MAGIC
   try {
-    res.json('put account')
+    res.json('update account')
   } catch (err) {
     next(err)
   }
